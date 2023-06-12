@@ -1,0 +1,63 @@
+/* External CSS */
+  @import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital@1&family=Roboto:ital,wght@0,100;0,300;1,100&display=swap');
+
+  /* Universal selector */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+/* body selector */
+
+body{
+    background-color: blueviolet;
+    font-family: 'PT Serif', serif;
+}
+/* Container class Styling */
+
+.container>h1{
+    font-size: 40px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+/*box-container class styling  */
+
+.box-container{
+    width:100%;
+    display:grid;
+    height: auto;
+    grid-template-columns: 30% 30% 30%;
+    /* grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
+    Grid-gap:20px;
+    justify-content: space-around;  
+}
+/* Button Styling */
+button{
+    width: 100px;
+    height: 30px;
+    background-color: blueviolet;
+    color: #fff;
+    margin-top: 10px;
+    border-radius: 12px;
+    margin-left: 150px;
+}
+/* h1 styling */
+h1{
+    color: blueviolet;
+    text-align: center;
+}
+/* child classes styling */
+.child1,.child2,.child3,.child4,.child5,.child6{
+        background-color: #fff;
+        border-radius: 12px;
+        border:2px solid white
+    
+}
+pre{
+    font-size: 16px;
+}
+button:hover{
+    letter-spacing: 1.8;
+}
